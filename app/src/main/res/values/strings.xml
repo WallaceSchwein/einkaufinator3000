@@ -1,0 +1,89 @@
+<resources>
+    <!--App-->
+    <string name="app_name">Einkaufinator3000</string>
+    <!--Navbar-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Einkaufinator3000</string>
+    <string name="nav_header_subtitle">The second best App available!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <!--Menu-->
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="mnu_list">My List</string>
+    <string name="mnu_over">Overview</string>
+    <string name="mnu_stats">Statistics</string>
+    <string name="mnu_markets">Market Settings</string>
+    <string name="mnu_home">Einkaufinator3000</string>
+    <!--Buttons-->
+    <string name="btn_list">My List</string>
+    <string name="btn_over">Overview</string>
+    <string name="btn_markets">Markets</string>
+    <string name="btn_stats">Statistics</string>
+    <string name="btn_add">add</string>
+    <string name="btn_sort_list">sort list</string>
+    <string name="btn_go">go</string>
+    <string name="btn_from">start date</string>
+    <string name="btn_to">end date</string>
+    <string name="btn_complete">complete list</string>
+    <string name="btn_build">Build</string>
+    <!--ListFrag-->
+    <string name="list_txt">Enter the requested info and add a product:</string>
+    <string-array name="spinner_prod_txt">
+        <item>*Product Type</item>
+        <item>Babybedarf</item>
+        <item>Backware</item>
+        <item>Backzubereitung</item>
+        <item>Bier</item>
+        <item>Brot</item>
+        <item>Fertigessen</item>
+        <item>Fleisch + Fisch</item>
+        <item>Frischetheke</item>
+        <item>Haushaltsware</item>
+        <item>Haustierbedarf</item>
+        <item>Hygieneartikel</item>
+        <item>Kaffee</item>
+        <item>Knabberzeug</item>
+        <item>Konserven + Gläser</item>
+        <item>Kuchen + Kekse</item>
+        <item>Käse</item>
+        <item>Limo</item>
+        <item>Marmelade + Honig</item>
+        <item>Milchprodukte (frisch)</item>
+        <item>Milchprodukte (haltbar)</item>
+        <item>Müsli</item>
+        <item>Obst + Gemüse</item>
+        <item>Pasta</item>
+        <item>Reinigunsartikel</item>
+        <item>Reis + Getreide</item>
+        <item>Saft</item>
+        <item>Schnaps</item>
+        <item>Soßen</item>
+        <item>Tiefkühl</item>
+        <item>Tee</item>
+        <item>Vegetarisches + Salate</item>
+        <item>Wasser</item>
+        <item>Wein</item>
+        <item>Wurstwaren</item>
+    </string-array>
+    <string-array name="spinner_market_txt">
+    <item>*Market</item>
+    <item>Edeka</item>
+    <item>Rewe</item>
+    <item>Lidl</item>
+    <item>Aldi</item>
+    </string-array>
+    <string name="prod_name_alert">Please enter a Product Name!</string>
+    <string name="prod_type_alert">Please choose a Product Type!</string>
+    <string name="price_alert">Please enter the price of you grocery!</string>
+    <string name="market_alert">Please choose a Market!</string>
+    <!--OverFrag-->
+    <string name="over_h">List History</string>
+    <!--StatsFrag-->
+    <string name="stats_h">Statistics</string>
+    <string name="stats_txt">Choose a time period and a supermarket for which you want to see your expenses:</string>
+    <!--MarketsFrag-->
+    <string name="markets_txt">Build your Market</string>
+    <string name="new_build_alert">Please select all Type of Products first!</string>
+
+</resources>

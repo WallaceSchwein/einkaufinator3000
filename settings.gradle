@@ -1,0 +1,2 @@
+rootProject.name = "Einkaufinator3000"
+include ':app'

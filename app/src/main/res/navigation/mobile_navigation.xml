@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="de.hwr.willi.einkaufinator3000.ui.HomeFragment"
+        android:label="@string/mnu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_ListFragment"
+            app:destination="@id/nav_list" />
+        <action
+            android:id="@+id/action_HomeFragment_to_OverFragment"
+            app:destination="@id/nav_over" />
+        <action
+            android:id="@+id/action_HomeFragment_to_MarketsFragment"
+            app:destination="@id/nav_markets" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="de.hwr.willi.einkaufinator3000.ui.ListFragment"
+        android:label="@string/mnu_list"
+        tools:layout="@layout/fragment_list" />
+
+        <action
+            android:id="@+id/action_ListFragment_to_OverFragment"
+            app:destination="@id/nav_over" />
+    <fragment
+        android:id="@+id/nav_over"
+        android:name="de.hwr.willi.einkaufinator3000.ui.OverFragment"
+        android:label="@string/mnu_over"
+        tools:layout="@layout/fragment_over" />
+
+        <action
+            android:id="@+id/action_OverFragment_to_StatsFragment"
+            app:destination="@id/nav_stats" />
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="de.hwr.willi.einkaufinator3000.ui.StatsFragment"
+        android:label="@string/mnu_stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/nav_markets"
+        android:name="de.hwr.willi.einkaufinator3000.ui.MarketsFragment"
+        android:label="@string/mnu_markets"
+        tools:layout="@layout/fragment_markets" />
+</navigation>
